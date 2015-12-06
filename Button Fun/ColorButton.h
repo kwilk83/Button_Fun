@@ -1,15 +1,12 @@
 //
-//  ViewController.h
+//  ColorButton.h
 //  Button Fun
 //
 //  Created by Kevin on 12/6/15.
 //  Copyright © 2015 Kevin. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (strong, nonatomic) NSArray* buttonsArray;
+@interface ColorButton : UIView
 
 @end
-

@@ -15,6 +15,7 @@
 		0A6661D91C14EDD700CB344A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6661D71C14EDD700CB344A /* LaunchScreen.storyboard */; };
 		0A6661E41C14EDD700CB344A /* Button_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6661E31C14EDD700CB344A /* Button_FunTests.m */; };
 		0A6661EF1C14EDD700CB344A /* Button_FunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6661EE1C14EDD700CB344A /* Button_FunUITests.m */; };
+		0A6661FE1C14F21E00CB344A /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6661FD1C14F21E00CB344A /* ColorButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0A6661EA1C14EDD700CB344A /* Button FunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button FunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6661EE1C14EDD700CB344A /* Button_FunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_FunUITests.m; sourceTree = "<group>"; };
 		0A6661F01C14EDD700CB344A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6661FD1C14F21E00CB344A /* ColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorButton.m; sourceTree = "<group>"; };
+		0A6661FF1C14F23500CB344A /* ColorButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0A6661D71C14EDD700CB344A /* LaunchScreen.storyboard */,
 				0A6661DA1C14EDD700CB344A /* Info.plist */,
 				0A6661C91C14EDD700CB344A /* Supporting Files */,
+				0A6661FD1C14F21E00CB344A /* ColorButton.m */,
+				0A6661FF1C14F23500CB344A /* ColorButton.h */,
 			);
 			path = "Button Fun";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				0A6661D11C14EDD700CB344A /* ViewController.m in Sources */,
 				0A6661CE1C14EDD700CB344A /* AppDelegate.m in Sources */,
 				0A6661CB1C14EDD700CB344A /* main.m in Sources */,
+				0A6661FE1C14F21E00CB344A /* ColorButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				0A6661F51C14EDD700CB344A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A6661F61C14EDD700CB344A /* Build configuration list for PBXNativeTarget "Button FunTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				0A6661F81C14EDD700CB344A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A6661F91C14EDD700CB344A /* Build configuration list for PBXNativeTarget "Button FunUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				0A6661FB1C14EDD700CB344A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
